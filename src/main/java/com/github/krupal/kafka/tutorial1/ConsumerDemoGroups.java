@@ -12,12 +12,12 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
 
-public class ConsumerDemo {
+public class ConsumerDemoGroups {
 
     public static void main(String[] args) {
 
         String bootstrap_server = "127.0.0.1:9092";
-        String groupId = "my-app-three";
+        String groupId = "my-app-two";
 
         Logger logger = LoggerFactory.getLogger(ConsumerDemo.class);
 
@@ -48,6 +48,7 @@ public class ConsumerDemo {
 
             }
         }
+
 
 
     }
